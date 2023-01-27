@@ -1,6 +1,6 @@
-  require_relative "ownable "
+require_relative "ownable "
   
-  class Wallet
+class Wallet
   include Ownable
   attr_reader :balance
 

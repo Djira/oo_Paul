@@ -1,6 +1,6 @@
-  require_relative "ownable" 
+require_relative "ownable" 
   
-  class Item
+class Item
   include Ownable
   attr_reader :name, :price
 
